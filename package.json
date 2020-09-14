@@ -1,0 +1,22 @@
+{
+  "name": "bestteamever",
+  "version": "1.0.0",
+  "description": "Workshop repozitorija su automation testais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaPandaa/BestTeamEver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PandaPandaa/BestTeamEver/issues"
+  },
+  "homepage": "https://github.com/PandaPandaa/BestTeamEver#readme",
+  "dependencies": {
+    "cypress": "^5.1.0"
+  }
+}
