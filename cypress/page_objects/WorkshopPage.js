@@ -29,6 +29,9 @@ class WorkshopPage{
     getPassword(){
         return cy.get(':nth-child(2) > .v-input__control > .v-input__slot > .v-text-field__slot > input')
     }
+    getThursdayOrders(){
+        return cy.visit('https://lunch.devbstaging.com/dishes/wednesday/Lijanos%20tiek%C4%97jas%204%20green')
+    }
      
 }
 export default WorkshopPage
